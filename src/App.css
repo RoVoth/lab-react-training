@@ -6,6 +6,44 @@
   height: 40vmin;
   pointer-events: none;
 }
+#id-card{
+    border: 1px solid #000;
+    margin: 1rem;
+    padding: .5rem;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: left;
+    gap: .5rem;
+    height: 13rem;
+  }
+
+.idMessage {
+  border: 1px solid #000;
+  margin: 1rem;
+  padding: .5rem;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  text-align: left;
+  
+}
+#karte {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  width: 30%;
+}
+#driverCard {
+  background-color: #5b7bec;
+  color: white;
+}
+
+#imageDriver {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
